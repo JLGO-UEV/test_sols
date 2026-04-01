@@ -1,0 +1,39 @@
+<hr>
+
+<h2>Respuestas correctas y breve explicación</h2>
+
+<p><strong>1) c)</strong><br>
+Es falso positivo cuando el modelo dice “positivo”, pero la realidad era “negativo”.</p>
+
+<p><strong>2) b)</strong><br>
+La <strong>precisión</strong> mide cuántos de los positivos predichos eran realmente positivos.</p>
+
+<p><strong>3) a)</strong><br>
+El <strong>recall</strong> mide cuántos positivos reales ha conseguido capturar el modelo.</p>
+
+<p><strong>4) c)</strong><br>
+En ese contexto interesa no dejar escapar casos positivos reales, así que hay que priorizar <strong>recall</strong> y reducir falsos negativos.</p>
+
+<p><strong>5) b)</strong><br>
+Al bajar el umbral, el modelo marca más casos como positivos: sube la <strong>sensibilidad/recall</strong>, pero también suelen subir los <strong>falsos positivos</strong>.</p>
+
+<p><strong>6) c)</strong><br>
+Un <strong>AUC ≈ 0.5</strong> indica que el modelo discrimina más o menos como el azar.</p>
+
+<p><strong>7) b)</strong><br>
+La <strong>accuracy</strong> puede parecer alta aunque el modelo falle justo en la clase importante, sobre todo si hay desbalanceo.</p>
+
+<p><strong>8) c)</strong><br>
+El <strong>RMSE</strong> penaliza más los errores grandes porque eleva cada error al cuadrado.</p>
+
+<p><strong>9) b)</strong><br>
+De nuevo, el <strong>MSE</strong> hace que los errores grandes pesen mucho más que los pequeños.</p>
+
+<p><strong>10) c)</strong><br>
+<strong>R² = 0</strong> significa que el modelo no mejora a una predicción muy básica basada en la media.</p>
+
+<p><strong>11) b)</strong><br>
+El <strong>error Tipo I</strong> es un falso positivo estadístico: rechazar la hipótesis nula cuando era cierta.</p>
+
+<p><strong>12) c)</strong><br>
+Si <strong>p &lt; α</strong>, se considera que hay evidencia suficiente para <strong>rechazar H0</strong>.</p>
